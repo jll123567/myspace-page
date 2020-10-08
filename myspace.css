@@ -1,0 +1,178 @@
+@keyframes spinOnX {
+  0% {transform: scaleX(1);}
+  50% {transform: scaleX(-1);}
+  100%{transform: scaleX(1);}
+}
+
+@keyframes sin {
+  0% {transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+*{
+font-family:"Consolas";
+cursor: url(https://github.com/jll123567/myspace-page/blob/main/courser/courser04.cur?raw=true), auto !important;
+}
+
+code{
+    background: #575757;
+    color: #cc66ff;
+}
+
+body{
+    background:linear-gradient(to bottom right, #33cc33 0%, #0066cc 100%);
+}
+
+#container{background: rgba(255,255,255,0.2);}
+
+.topLeft{background: rgba(0,0,0,0.7);}
+
+.topLeft *{animation: sin 1s;}
+
+#name {
+    color: white;
+    background: black;
+    border: solid 2px white;
+}
+
+.short{
+    background: black;
+    color: green;
+    border: solid 2px white;
+}
+
+
+#avatar{
+    animation: spinOnX 5s linear infinite;
+    border: 2px solid black;
+}
+
+.boxInfo.box{
+    background:black;
+    border: solid 2px white;
+}
+
+.boxHead{
+    background:black;
+    border-bottom: solid 2px;
+}
+
+#add{background-image:url(https://i.imgur.com/LliZBBx.png);}
+#sMsg{background-image:url(https://i.imgur.com/D9qsVeH.png);}
+#report{background-image:url(https://i.imgur.com/OS2XrEV.png);}
+#block{background-image:url(https://i.imgur.com/siDQjaR.png);}
+
+.url.box{background: white;}
+
+.player {
+    background: black;
+    color: green;
+    border: solid 2px white;
+}
+
+.topRight{background: rgba(0,0,0,.7);}
+
+.topRight *{animation: sin 1s;}
+
+.extended.box{
+    background: black;
+    color: white;
+    border: solid 2px white;
+}
+
+.blogs{
+    padding: 2px;
+    background: black;
+    color: green;
+    outline: solid 2px white;
+    margin: 2px;
+}
+
+.blogs > div:first-child{
+    color: white;
+    border-bottom: solid 2px white;
+}
+
+.rightHead{visibility: hidden;}
+
+.rightHead + h4{
+    background: black;
+    color: #ffffff;
+    margin-bottom: 0px;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+}
+
+#about{
+    border: solid 2px white;
+    background: black;
+    color: green;
+}
+
+#about a:hover{
+    color: #fff;
+}
+
+
+#about + h4{
+    visibility: hidden;
+}
+
+.box.fwiends {
+    background: black;
+    color: green;
+    border: solid 2px white;
+}
+
+.box.fwiends .rightHead {
+    visibility: visible;
+    background: black;
+    color: white;
+    border-bottom: solid 2px white;
+}
+
+#viewFriends {text-align: center;}
+
+.box.comments {padding-top: 10px;}
+
+#form {
+    background: black;
+    border: solid 2px white;
+}
+
+#form + .boxHead {
+    margin-top: 36px;
+    border: solid 2px white;
+}
+
+#userWall {
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+    margin-top: 0px;
+}
+
+.fwiendFace img {
+    border-radius: 10px;
+    height: 130px;
+    width: 130px;
+}
+
+.tableLeft {
+    background: black;
+}
+
+.tableLeft a{color: white;}
+
+.tableLeft img {
+    height: 110px;
+    width: 110px;
+}
+
+.tableRight{
+    background: black;
+    color: green;
+}
+
+.tableRight .date{color: white;}
