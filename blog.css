@@ -1,4 +1,18 @@
 code{
-    background: #575757;
-    color: #cc66ff;
+    background: #292929;
+    color: #e1b0ff;
+}
+
+.topLeft.blogCard {
+    background: black;
+    color: #00ca00;
+}
+
+.blog{
+    background: black;
+    color: green;
+}
+
+.box.blog a {
+    color: white;
 }

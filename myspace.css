@@ -11,16 +11,15 @@
 
 *{
 font-family:"Consolas";
-cursor: url(https://github.com/jll123567/myspace-page/blob/main/courser/courser04.cur?raw=true), auto !important;
-}
-
-code{
-    background: #575757;
-    color: #cc66ff;
+cursor: url(https://github.com/jll123567/myspace-page/blob/main/cursor/cursor-32px.cur?raw=true), auto !important;
 }
 
 body{
     background:linear-gradient(to bottom right, #33cc33 0%, #0066cc 100%);
+}
+
+a:hover{
+    color: #fff;
 }
 
 #container{background: rgba(255,255,255,0.2);}
@@ -110,11 +109,6 @@ body{
     color: green;
 }
 
-#about a:hover{
-    color: #fff;
-}
-
-
 #about + h4{
     visibility: hidden;
 }
@@ -176,3 +170,23 @@ body{
 }
 
 .tableRight .date{color: white;}
+
+/* blog */
+code{
+    background: #292929;
+    color: #e1b0ff;
+}
+
+.topLeft.blogCard {
+    background: black;
+    color: #00ca00;
+}
+
+.blog{
+    background: black;
+    color: green;
+}
+
+.box.blog a {
+    color: white;
+}
