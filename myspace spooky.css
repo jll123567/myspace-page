@@ -39,11 +39,6 @@ a:hover{
     color: orange;
 }
 
-#name::after::after{
-    content:"f";
-    color: green;
-}
-
 .short{
     background: black;
     color: orange;
@@ -194,7 +189,7 @@ code{
 
 .topLeft.blogCard {
     background: black;
-    color: #00ca00;
+    color: orange;
 }
 
 .blog{
