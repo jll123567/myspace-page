@@ -11,11 +11,11 @@
 
 *{
 font-family:"Consolas";
-cursor: url(https://github.com/jll123567/myspace-page/blob/main/courser/courser04.cur?raw=true), auto !important;
+cursor: url(https://github.com/jll123567/myspace-page/blob/main/cursor/cursor-32px.cur?raw=true), auto !important;
 }
 
 body{
-    background:linear-gradient(to bottom right, #33cc33 0%, #0066cc 100%);
+    background:linear-gradient(to right, #ff7600 0%, #5b00b9 100%);
 }
 
 a:hover{
@@ -34,9 +34,19 @@ a:hover{
     border: solid 2px white;
 }
 
+#name::after{
+    content:"  (Spooky)";
+    color: orange;
+}
+
+#name::after::after{
+    content:"f";
+    color: green;
+}
+
 .short{
     background: black;
-    color: green;
+    color: orange;
     border: solid 2px white;
 }
 
@@ -44,6 +54,10 @@ a:hover{
 #avatar{
     animation: spinOnX 5s linear infinite;
     border: 2px solid black;
+}
+
+#online{
+    /*content:*/
 }
 
 .boxInfo.box{
@@ -56,7 +70,7 @@ a:hover{
     border-bottom: solid 2px;
 }
 
-#add{background-image:url(htthttps://github.com/jll123567/myspace-page/blob/main/contactIcons/add.png?raw=true);}
+#add{background-image:url(https://github.com/jll123567/myspace-page/blob/main/contactIcons/add.png?raw=true);}
 #sMsg{background-image:url(https://github.com/jll123567/myspace-page/blob/main/contactIcons/message.png?raw=true);}
 #report{background-image:url(https://github.com/jll123567/myspace-page/blob/main/contactIcons/report.png?raw=true);}
 #block{background-image:url(https://github.com/jll123567/myspace-page/blob/main/contactIcons/block.png?raw=true);}
@@ -65,7 +79,7 @@ a:hover{
 
 .player {
     background: black;
-    color: green;
+    color: orange;
     border: solid 2px white;
 }
 
@@ -82,7 +96,7 @@ a:hover{
 .blogs{
     padding: 2px;
     background: black;
-    color: green;
+    color: orange;
     outline: solid 2px white;
     margin: 2px;
 }
@@ -106,7 +120,7 @@ a:hover{
 #about{
     border: solid 2px white;
     background: black;
-    color: green;
+    color: orange;
 }
 
 #about + h4{
@@ -115,7 +129,7 @@ a:hover{
 
 .box.fwiends {
     background: black;
-    color: green;
+    color: orange;
     border: solid 2px white;
 }
 
@@ -166,7 +180,27 @@ a:hover{
 
 .tableRight{
     background: black;
-    color: green;
+    color: orange;
 }
 
 .tableRight .date{color: white;}
+
+/* blog */
+code{
+    background: #292929;
+    color: #e1b0ff;
+}
+
+.topLeft.blogCard {
+    background: black;
+    color: #00ca00;
+}
+
+.blog{
+    background: black;
+    color: orange;
+}
+
+.box.blog a {
+    color: white;
+}
