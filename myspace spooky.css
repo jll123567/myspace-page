@@ -57,7 +57,8 @@ a:hover{
 }
 
 #online{
-    /*content:*/
+    height: 30px;
+    content: url(https://github.com/jll123567/myspace-page/blob/main/online/online%20haunting.gif?raw=true);
 }
 
 .boxInfo.box{
