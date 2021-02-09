@@ -18,6 +18,10 @@ body{
     background:linear-gradient(to bottom right, #33cc33 0%, #0066cc 100%);
 }
 
+table{
+    border-collapse: collapse;
+}
+
 a:hover{
     color: #fff;
 }
@@ -155,6 +159,8 @@ a:hover{
 
 .tableLeft {
     background: black;
+    border-bottom: solid 2px #999999;
+    border-right: solid 2px #999999;
 }
 
 .tableLeft a{color: white;}
@@ -167,6 +173,7 @@ a:hover{
 .tableRight{
     background: black;
     color: green;
+    border-bottom: solid 2px #999999;
 }
 
 .tableRight .date{color: white;}
