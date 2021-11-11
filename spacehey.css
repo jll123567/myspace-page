@@ -1,0 +1,166 @@
+@keyframes spinOnX {
+  0% {transform: scaleX(1);}
+  50% {transform: scaleX(-1);}
+  100%{transform: scaleX(1);}
+}
+
+@keyframes sin {
+  0% {transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+*{
+    font-family:"Consolas";
+    cursor: url(https://github.com/jll123567/myspace-page/blob/main/cursor/cursor-32px.cur?raw=true), auto !important;
+    animation-name: sin;
+    animation-duration: 0.75s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+body{
+    background:linear-gradient(to bottom right, #41ff41 0%, #4ca5ff 100%);
+}
+
+a{
+    color: blue;
+}
+
+a:visited{
+    color: #b401b4;
+}
+
+a:hover{
+    color: #fff;
+}
+
+iframe {
+    width: 450px;
+}
+
+main{
+    background: rgba(0,0,0,0);
+    color: #0c0;
+}
+
+.col.w-40.left > div, .col.w-40.left > h1 {
+    box-shadow: 8px 8px rgb(0 0 0 / 38%);
+}
+
+.col.w-40.left > div {
+    background: black;
+    border: solid 2px white;
+    padding: 2px;
+}
+
+.col.w-40.left > h1:first-child {
+    border: solid 2px white;
+    background: black;
+    color: white;
+}
+
+.general-about {
+    height: 168px;
+}
+
+.general-about .profile-pic img {
+    animation-name: spinOnX;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.col.w-40.left > div.mood {
+    border-bottom: none;
+}
+
+.col.w-40.left > div > div.heading {
+    border-bottom: solid 2px white;
+    background: black;
+    color: white;
+}
+
+.col.right > div {
+    background: black;
+    border: solid 2px white;
+    box-shadow: 8px 8px rgb(0 0 0 / 38%);
+}
+
+.col.right > div > div.heading {
+    color: white;
+    background: black;
+    border-bottom: solid 2px white;
+}
+
+.blog-preview{
+    border: solid 2px white;
+}
+
+.blog-preview > h4:first-child{
+    border-bottom: solid 2px white;
+    color: white;
+    margin-top: 2px;
+}
+
+.profile .blurbs .section h4 {
+    color: #dcdcdc;
+}
+
+.profile .url-info {
+    padding: 0px;
+}
+
+.profile .url-info > p:first-child {
+    color: white;
+}
+
+table.details-table {
+    border-collapse: collapse;
+ }
+
+table.details-table tbody tr td {
+    border: solid 2px white;
+    background: black;
+    color: #0c0;
+}
+
+.details-table td:first-child {
+    background: black;
+    color: white;
+}
+
+/*.col.w-40.left > div:nth-child(6) {
+    visibility: hidden;
+}*/
+
+.col.w-40.left > div:nth-child(7) {
+    visibility: hidden;
+}
+
+.col.w-40.left > div:nth-child(8) {
+    visibility: hidden;
+}
+
+table.comments-table{
+ border: none;
+}
+
+.comments-table tbody:first-child > tr:first-child > td {
+    border-top: solid 2px white;
+}
+
+.comments-table td {
+    background: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-top: 0px;
+}
+.comments-table td:first-child {
+    background: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-top: 0px;
+    border-right: 0px;
+}
